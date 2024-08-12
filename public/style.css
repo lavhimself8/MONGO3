@@ -1,0 +1,90 @@
+/* General Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e5ddd5;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h3 {
+  color: #075e54;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.chat {
+  max-width: 500px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-color: #dcf8c6; /* WhatsApp message bubble color */
+}
+
+.chat p {
+  margin: 0;
+  padding: 0;
+}
+
+.chat .msg {
+  margin: 10px 0;
+}
+
+.msg p {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.chat p.from {
+  font-weight: bold;
+  color: #075e54;
+}
+
+.chat p.to {
+  font-size: 12px;
+  color: #777;
+  text-align: right;
+}
+
+.chat p.timestamp {
+  font-size: 12px;
+  color: #999;
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Buttons Styling */
+form {
+  display: inline-block;
+}
+
+form button {
+  background-color: transparent;
+  border: none;
+  color: #075e54;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+form button:hover {
+  color: #128c7e;
+}
+
+form button:last-child {
+  color: #d9534f;
+}
+
+form button:last-child:hover {
+  color: #c9302c;
+}
